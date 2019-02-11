@@ -41,4 +41,4 @@ ont_cpp helloc.cpp -o helloc.wasm
 
 ont_cpp helloc.cpp -o helloc.wasm -Llibdir -lmalloc
 
-ont_c -nostdinc -I/${install_dir}/include/libc -L/${install_dir}/lib -lc -lmalloc -static test_memset.c
+ont_c -I/${install_dir}/include/libc -L/${install_dir}/lib -lc -lmalloc test_memset.c

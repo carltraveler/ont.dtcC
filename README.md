@@ -9,7 +9,7 @@ git clone https://github.com/carltraveler/ont.dtcC
 
 cd install/
 
-cp -r * install_dir
+cp -r * install_dir/
 
 export PATH=$PATH:install_dir/bin
 
@@ -37,8 +37,6 @@ ont_c test.c -o test.wasm
 
 ont_cpp helloc.cpp 
 
-ont_cpp helloc.cpp -o helloc.wasm
+ont_cpp helloc.cpp -o hello.wasm
 
-ont_cpp helloc.cpp -o helloc.wasm -Llibdir -lmalloc
 
-ont_c -I/${install_dir}/include/libc -L/${install_dir}/lib -lc -lmalloc test_memset.c

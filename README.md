@@ -35,8 +35,9 @@ ont_c test.c
 
 ont_c test.c -o test.wasm
 
-ont_cpp helloc.cpp 
+ont_cpp helloc.cpp -s  # -s option strip all info. make *.wasm smaller
 
 ont_cpp helloc.cpp -o hello.wasm
+
 
 

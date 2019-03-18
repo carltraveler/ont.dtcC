@@ -177,4 +177,4 @@ To quickly explore the feasibility of wasm contract development, initial develop
 
 See the source code files for more details.
 
-Copies of third party licenses can be found in [LICENSE-THIRD-PARTY](Third_Party_Licenses).
+Copies of third party licenses can be found in [LICENSE-THIRD-PARTY](Third_Party_Licenses.md).
